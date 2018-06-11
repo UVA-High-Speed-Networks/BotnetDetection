@@ -1,0 +1,27 @@
+#separator \x09
+#set_separator	,
+#empty_field	(empty)
+#unset_field	-
+#path	conn
+#open	2017-03-15-18-00-13
+#fields	ts	uid	id.orig_h	id.orig_p	id.resp_h	id.resp_p	proto	service	duration	orig_bytes	resp_bytes	conn_state	local_orig	local_resp	missed_bytes	history	orig_pkts	orig_ip_bytes	resp_pkts	resp_ip_bytes	tunnel_parents
+#types	time	string	addr	port	addr	port	enum	string	interval	count	count	string	bool	bool	count	string	count	count	count	count	set[string]
+11.471177	CUviSx3mp7MbSjohB3	192.168.1.110	50501	8.8.8.8	53	udp	dns	0.001631	34	50	SF	T	F	0	Dd	1	62	1	78	(empty)
+11.473159	CcLPz91vJYwavVrjbk	192.168.1.110	53020	8.8.8.8	53	udp	dns	0.001124	34	62	SF	T	F	0	Dd	1	62	1	90	(empty)
+7.386736	CdV4IA3wm5pDEUrBO3	fe80::da58:d7ff:fe00:f72	134	fe80::3d1a:8135:9ed5:db1c	133	icmp	-	8.000893	408	0	OTH	F	F	0	-	3	552	0	0	(empty)
+12.395802	CUJIiE45NZU3gtUJR1	fe80::da58:d7ff:fe00:f72	135	fe80::3d1a:8135:9ed5:db1c	136	icmp	-	69.936147	72	72	OTH	F	F	0	-	3	216	3	216	(empty)
+17.378483	Cc1BI35Gjnz6QVUtk	fe80::3d1a:8135:9ed5:db1c	135	fe80::da58:d7ff:fe00:f72	136	icmp	-	69.499779	72	48	OTH	F	F	0	-	3	216	3	192	(empty)
+8.086264	CLCot41wrSyNuvSqui	fe80::da58:d7ff:fe00:f72	547	fe80::3d1a:8135:9ed5:db1c	546	udp	-	70.244400	2493	0	S0	F	F	0	D	21	3501	0	0	(empty)
+297.462582	CylXDx3jMpEk1GB2x3	192.168.1.110	49191	192.42.116.41	80	tcp	http	0.049654	240	383	SF	T	F	0	ShADadfF	6	492	6	635	(empty)
+297.991544	CRg8CB3p79NBWLGGP3	192.168.1.110	49192	208.100.26.234	80	tcp	http	1.346898	238	335	SF	T	F	0	ShADadfF	6	490	6	587	(empty)
+300.255000	CNepqy4GzjamyOB3s1	192.168.1.110	49193	23.253.126.58	80	tcp	http	0.354794	238	140	SF	T	F	0	ShADadfF	6	490	6	392	(empty)
+296.693588	C1LjH7jrSmEYHtlvi	fd2d:ab8c:225:0:1dd1:f146:ce60:e3aa	61712	fd2d:ab8c:225::1	53	udp	dns	0.324443	36	52	SF	F	F	0	Dd	1	84	1	100	(empty)
+297.513051	CYG9wa1BudltGfL22i	fd2d:ab8c:225:0:1dd1:f146:ce60:e3aa	59346	fd2d:ab8c:225::1	53	udp	dns	0.243843	34	97	SF	F	F	0	Dd	1	82	1	145	(empty)
+299.339285	C12kh41wf82q6GKksk	fd2d:ab8c:225:0:1dd1:f146:ce60:e3aa	57100	fd2d:ab8c:225::1	53	udp	dns	0.675517	34	66	SF	F	F	0	Dd	1	82	1	114	(empty)
+300.610612	CBART66gLyQDgi3fk	fd2d:ab8c:225:0:1dd1:f146:ce60:e3aa	64029	fd2d:ab8c:225::1	53	udp	dns	0.279008	33	49	SF	F	F	0	Dd	1	81	1	97	(empty)
+301.126026	CQKoxD4YA9trvcKZP1	192.168.1.110	49194	216.218.185.162	80	tcp	http	0.000649	237	0	S1	T	F	0	ShADa	4	409	3	132	(empty)
+296.693488	ClHk3y4z68mcKxKto1	fd2d:ab8c:225::1	136	fd2d:ab8c:225:0:1dd1:f146:ce60:e3aa	135	icmp	-	-	-	-	OTH	F	F	0	-	1	72	0	0	(empty)
+306.716069	CZtIIF2gNmGcL0TJEa	fe80::da58:d7ff:fe00:f72	135	fe80::3d1a:8135:9ed5:db1c	136	icmp	-	0.000212	24	24	OTH	F	F	0	-	1	72	1	72	(empty)
+301.708383	CbShq22Ykc8mYe6TAb	fe80::da58:d7ff:fe00:f72	136	fe80::3d1a:8135:9ed5:db1c	135	icmp	-	-	-	-	OTH	F	F	0	-	1	72	0	0	(empty)
+301.707953	CMmx34A3WcTQPRpra	fe80::da58:d7ff:fe00:f72	135	fd2d:ab8c:225:0:1dd1:f146:ce60:e3aa	136	icmp	-	0.000570	24	24	OTH	F	F	0	-	1	72	1	72	(empty)
+#close	2017-03-15-18-00-14
